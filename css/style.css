@@ -597,7 +597,7 @@ body.dark .course-code {
   color: #38bdf8;
   border-color: #1e4976;
 }
-.course-blurb { margin-top: 8px; max-width: 780px; }
+.course-blurb { text-wrap: pretty; }
 
 .back-link {
   display: inline-block;
