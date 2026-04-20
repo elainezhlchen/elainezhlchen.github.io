@@ -6,10 +6,6 @@
 # Dev / working files
 dev/
 
-# Lecture slides + notes (folder or symlink)
-assets/class_slides
-lecture-materials
-
 # Source / reference files
 assets/source/
 
