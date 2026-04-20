@@ -597,7 +597,12 @@ body.dark .course-code {
   color: #38bdf8;
   border-color: #1e4976;
 }
-.course-blurb { text-wrap: pretty; }
+.course-band .page-band-inner { max-width: none; }
+.course-blurb { white-space: nowrap; }
+@media (max-width: 1280px) {
+  .course-band .page-band-inner { max-width: 1168px; }
+  .course-blurb { white-space: normal; text-wrap: pretty; }
+}
 
 .back-link {
   display: inline-block;
