@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 329 153" width="329" height="153" aria-hidden="true" role="presentation">
+
+  <!-- ===== LARGE ORCA (left) ===== -->
+  <!-- Black body -->
+  <path d="
+    M 8 115
+    C 12 90, 22 60, 44 40
+    C 60 26, 78 17, 86 16
+    L 82 1
+    L 104 21
+    C 132 18, 168 30, 196 52
+    C 214 64, 226 80, 223 94
+    C 220 104, 208 108, 194 106
+    C 172 104, 145 110, 115 114
+    C 85 118, 50 119, 25 118
+    Z
+  " fill="#111"/>
+  <!-- White belly -->
+  <path d="
+    M 30 118
+    C 60 128, 105 130, 145 125
+    C 170 121, 192 112, 200 103
+    C 192 112, 172 120, 140 122
+    C 108 124, 68 120, 40 118
+    Z
+  " fill="white"/>
+  <!-- White chin/jaw -->
+  <ellipse cx="211" cy="87" rx="17" ry="10" fill="white" transform="rotate(-22 211 87)"/>
+  <!-- Gray saddle patch behind dorsal fin -->
+  <ellipse cx="118" cy="28" rx="32" ry="11" fill="#aaa" opacity="0.55" transform="rotate(14 118 28)"/>
+  <!-- White eye patch -->
+  <ellipse cx="205" cy="64" rx="15" ry="8" fill="white" transform="rotate(-24 205 64)"/>
+  <!-- Pectoral fin -->
+  <path d="M 152 84 C 160 102, 162 118, 153 122 C 144 124, 138 108, 141 94 Z" fill="#111" opacity="0.7"/>
+  <!-- Tail flukes -->
+  <path d="M 8 115 C 0 104, -2 92, 3 87 C 7 83, 15 91, 13 104 Z" fill="#111"/>
+  <path d="M 8 115 C 0 124, -2 136, 3 139 C 7 142, 15 133, 13 122 Z" fill="#111"/>
+
+  <!-- ===== MEDIUM ORCA (upper right) ===== -->
+  <!-- Black body -->
+  <path d="
+    M 172 64
+    C 175 48, 182 30, 196 20
+    C 207 12, 222 10, 237 17
+    C 252 24, 263 38, 265 52
+    C 267 64, 257 73, 242 74
+    C 224 76, 198 72, 184 68
+    Z
+  " fill="#111"/>
+  <!-- White belly -->
+  <path d="
+    M 182 70
+    C 202 77, 232 76, 250 69
+    C 258 65, 262 56, 256 51
+    C 252 56, 242 66, 220 71
+    C 202 74, 185 70, 182 70
+    Z
+  " fill="white"/>
+  <!-- White chin -->
+  <ellipse cx="259" cy="49" rx="10" ry="6" fill="white" transform="rotate(-20 259 49)"/>
+  <!-- White eye patch -->
+  <ellipse cx="251" cy="32" rx="9" ry="5.5" fill="white" transform="rotate(-22 251 32)"/>
+  <!-- Dorsal fin -->
+  <path d="M 194 23 L 190 8 L 199 11 L 207 23 Z" fill="#111"/>
+  <!-- Tail flukes -->
+  <path d="M 172 64 C 166 56, 165 46, 169 42 C 172 39, 179 45, 177 55 Z" fill="#111"/>
+  <path d="M 172 64 C 166 70, 165 79, 169 81 C 172 83, 179 75, 177 67 Z" fill="#111"/>
+
+  <!-- ===== SMALL ORCA (lower right) ===== -->
+  <!-- Black body -->
+  <path d="
+    M 254 133
+    C 256 122, 261 112, 269 106
+    C 277 100, 288 100, 298 106
+    C 308 112, 314 123, 312 134
+    C 310 143, 302 147, 291 146
+    C 279 145, 260 142, 254 133
+    Z
+  " fill="#111"/>
+  <!-- White belly -->
+  <path d="
+    M 261 141
+    C 276 148, 297 147, 307 140
+    C 312 135, 311 128, 305 124
+    C 302 131, 294 141, 278 144
+    C 268 146, 261 142, 261 141
+    Z
+  " fill="white"/>
+  <!-- White chin -->
+  <ellipse cx="306" cy="121" rx="7" ry="4.5" fill="white" transform="rotate(-15 306 121)"/>
+  <!-- White eye patch -->
+  <ellipse cx="299" cy="109" rx="6.5" ry="4" fill="white" transform="rotate(-15 299 109)"/>
+  <!-- Dorsal fin -->
+  <path d="M 263 111 L 260 100 L 267 102 L 272 111 Z" fill="#111"/>
+  <!-- Tail flukes -->
+  <path d="M 254 133 C 248 126, 247 117, 251 114 C 254 111, 259 117, 258 126 Z" fill="#111"/>
+  <path d="M 254 133 C 248 139, 247 147, 251 150 C 254 152, 259 145, 258 137 Z" fill="#111"/>
+
+</svg>

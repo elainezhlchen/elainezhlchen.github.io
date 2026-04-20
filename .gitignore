@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Dev / working files
+dev/
+
+# Lecture slides + notes (folder or symlink)
+assets/class_slides
+lecture-materials
+
+# Source / reference files
+assets/source/
+
+# Dev planning docs
+docs/superpowers/
+.superpowers/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+Thumbs.db

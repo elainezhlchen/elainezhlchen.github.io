@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" width="200" height="160" aria-hidden="true" role="presentation">
+  <style>
+    .grass { animation: sway 1.2s ease-in-out infinite alternate; transform-origin: bottom center; }
+    .jaw   { animation: chew 0.6s ease-in-out infinite alternate; transform-origin: 110px 95px; }
+    .tail  { animation: wag 1.8s ease-in-out infinite alternate; transform-origin: 30px 70px; }
+    @keyframes sway { from { transform: rotate(-4deg); } to { transform: rotate(4deg); } }
+    @keyframes chew { from { transform: rotate(-4deg); } to { transform: rotate(6deg); } }
+    @keyframes wag  { from { transform: rotate(-10deg); } to { transform: rotate(10deg); } }
+  </style>
+
+  <!-- Ground -->
+  <rect x="0" y="130" width="200" height="30" fill="#86efac" rx="0"/>
+
+  <!-- Grass blades -->
+  <g class="grass">
+    <rect x="140" y="108" width="4" height="22" fill="#22c55e" rx="2"/>
+    <rect x="150" y="112" width="3" height="18" fill="#16a34a" rx="2"/>
+    <rect x="158" y="110" width="4" height="20" fill="#22c55e" rx="2"/>
+    <rect x="166" y="114" width="3" height="16" fill="#16a34a" rx="2"/>
+  </g>
+
+  <!-- Body -->
+  <ellipse cx="90" cy="90" rx="55" ry="38" fill="#f5f5f4"/>
+  <!-- Spots -->
+  <ellipse cx="75" cy="82" rx="14" ry="10" fill="#1c1917" opacity=".15"/>
+  <ellipse cx="105" cy="95" rx="10" ry="8" fill="#1c1917" opacity=".12"/>
+
+  <!-- Tail -->
+  <g class="tail">
+    <path d="M36 72 Q20 60 18 50 Q16 42 22 40" stroke="#78716c" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="22" cy="38" rx="5" ry="7" fill="#a8a29e"/>
+  </g>
+
+  <!-- Legs -->
+  <rect x="60" y="122" width="10" height="20" fill="#e7e5e4" rx="4"/>
+  <rect x="76" y="122" width="10" height="20" fill="#e7e5e4" rx="4"/>
+  <rect x="96" y="122" width="10" height="20" fill="#e7e5e4" rx="4"/>
+  <rect x="112" y="122" width="10" height="20" fill="#e7e5e4" rx="4"/>
+  <!-- Hooves -->
+  <rect x="60" y="138" width="10" height="6" fill="#1c1917" rx="3"/>
+  <rect x="76" y="138" width="10" height="6" fill="#1c1917" rx="3"/>
+  <rect x="96" y="138" width="10" height="6" fill="#1c1917" rx="3"/>
+  <rect x="112" y="138" width="10" height="6" fill="#1c1917" rx="3"/>
+
+  <!-- Udder -->
+  <ellipse cx="90" cy="128" rx="16" ry="8" fill="#fda4af"/>
+
+  <!-- Neck + Head -->
+  <ellipse cx="132" cy="80" rx="18" ry="28" fill="#f5f5f4"/>
+  <!-- Head -->
+  <ellipse cx="140" cy="58" rx="22" ry="18" fill="#f5f5f4"/>
+
+  <!-- Jaw (animated) -->
+  <g class="jaw">
+    <ellipse cx="148" cy="72" rx="14" ry="8" fill="#e7e5e4"/>
+    <!-- Grass in mouth -->
+    <rect x="158" y="68" width="3" height="14" fill="#22c55e" rx="2"/>
+    <rect x="163" y="70" width="2" height="12" fill="#16a34a" rx="2"/>
+  </g>
+
+  <!-- Ear -->
+  <ellipse cx="122" cy="46" rx="7" ry="10" fill="#fda4af" transform="rotate(-15 122 46)"/>
+
+  <!-- Horn -->
+  <path d="M128 44 Q124 32 130 28" stroke="#d97706" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Eye -->
+  <circle cx="148" cy="54" r="4" fill="#1c1917"/>
+  <circle cx="149.5" cy="52.5" r="1.2" fill="white"/>
+
+  <!-- Nose -->
+  <ellipse cx="158" cy="64" rx="8" ry="5" fill="#fda4af"/>
+  <circle cx="155" cy="64" r="1.5" fill="#be185d" opacity=".6"/>
+  <circle cx="161" cy="64" r="1.5" fill="#be185d" opacity=".6"/>
+</svg>
