@@ -822,6 +822,8 @@ body[data-page="cv"] .cv-section { margin-bottom: 32px; }
 body[data-page="cv"] .cv-entry { padding: 14px 0; margin-bottom: 12px; }
 body[data-page="cv"] .cv-entry ul { gap: 2px; }
 body[data-page="cv"] .btn-fill { background: var(--sky); }
+body[data-page="cv"] .cv-entry ul li a { color: var(--sky); text-decoration: underline; }
+body[data-page="cv"] .cv-entry ul li a:hover { text-decoration: underline; opacity: 0.8; }
 body[data-page="cv"] .btn-fill:hover { background: #0284c7; }
 
 @media print {
